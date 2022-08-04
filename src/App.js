@@ -3,15 +3,6 @@ import { Component } from "react";
 import Cardlist from "./Components/card-list/card-list.component";
 import Search from "./Components/search-box/search-box.component";
 
-// const App = () =>{
-//   return (
-//           <div key={this.state.monsters.id}>
-//             <h1 className='app_header'>ROLODEX MONSTERS</h1>
-//             <Search monsters = {this.state.array2} onSearchChange = {this.onSearchChange} className = 'monsters-search-box' placeHolder ='type a monster' />
-//             <Cardlist monsters = {this.state.array2}/>
-//           </div>  )
-// }
-
 class App extends Component {
   constructor() {
     super();
@@ -45,7 +36,6 @@ class App extends Component {
       }
     );
   };
-
 
   render() {
     console.log("this is the render");
